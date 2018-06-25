@@ -7,13 +7,13 @@ This show how multiple containers can aggregate log to logging infrastructure wi
 you will need docker installed in your computer, after it :
 
 1. Run
-```
+```zsh
 docker-compose up
 ```
 2. Wait for kibana (this might take a bit)
 3. Add logstash-* as index with @timestamp as Time-field name
 4. run to get some logs from httpd
-```
+```zsh
 repeat 10 curl http://localhost:80/ 
 ```
 5. Go to Discover 
