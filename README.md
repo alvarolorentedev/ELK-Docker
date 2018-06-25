@@ -26,7 +26,7 @@ the target architecture would be to allow gathering information from application
 
 (current architecture is missing google analytics and hadoop as seen in TODO list)
 
-## TODO
+## Backlog
 - [X] Add kibana container
 - [X] Add elasticsearch container
 - [X] Add logstash container and configuration
