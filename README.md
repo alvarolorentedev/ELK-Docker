@@ -26,8 +26,6 @@ the target architecture would be to allow gathering information from application
 
 (current architecture is missing google analytics and hadoop as seen in TODO list)
 
-current architecture is 
-
 ## TODO
 - [ ] add import fron google analytics through logstash and http_poller
 - [ ] Add hadoop infrastructure for data analytics extension
