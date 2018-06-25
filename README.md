@@ -1,4 +1,4 @@
-# ELK elastic stash
+# ![logomakr_5axvtc](https://user-images.githubusercontent.com/3071208/41837679-81e03624-785e-11e8-841c-4bd25a61b5cd.png)
 
 This show how multiple containers can aggregate log to logging infrastructure with docker compose using logstash, elastic search and kibana
 
@@ -37,3 +37,7 @@ the target architecture would be to allow gathering information from application
 - [http poller](https://www.elastic.co/guide/en/logstash/current/plugins-inputs-http_poller.html)
 - [hadoop elastic search](https://www.elastic.co/products/hadoop)
 - [hadoop vs elastic search](https://blog.treasuredata.com/blog/2015/08/31/hadoop-vs-elasticsearch-for-advanced-analytics/)
+
+### Logo
+
+Check out the new logo that I created on <a href="http://logomakr.com" title="Logo Makr">LogoMakr.com</a> https://logomakr.com/5axvTc
