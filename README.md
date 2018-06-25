@@ -22,13 +22,15 @@ repeat 10 curl http://localhost:80/
 
 the target architecture would be to allow gathering information from applications but also sync with hadoop to enable having a data lake to improve analytics, and pull directly from google analytics to logstash.
 
-![target arch](https://user-images.githubusercontent.com/3071208/41835050-743623ce-7856-11e8-8a6b-3b0b20879d7d.png)
+![target arch](https://user-images.githubusercontent.com/3071208/41835539-452a2704-7858-11e8-994d-0943039758fe.png)
+
+(current architecture is missing google analytics and hadoop as seen in TODO list)
 
 current architecture is 
 
 ## TODO
-- [] add import fron google analytics through logstash and http_poller
-- [] Add hadoop infrastructure for data analytics extension
+- [ ] add import fron google analytics through logstash and http_poller
+- [ ] Add hadoop infrastructure for data analytics extension
 
 ## References & further readings
 
