@@ -10,27 +10,35 @@ you will need docker installed in your computer, after it :
 ```zsh
 docker-compose up
 ```
-2. Wait for kibana (this might take a bit)
-3. Add logstash-* as index with @timestamp as Time-field name
-4. run to get some logs from httpd
+2. run to get some logs from httpd
 ```zsh
 repeat 10 curl http://localhost:80/ 
 ```
-5. Go to Discover 
+3. Kibana:
+   - this might take a bit
+   - Navigate to http://localhost:5601 
+   - Add logstash-* as index with @timestamp as Time-field name
+   - Go to Discover 
+4. Grafana:
+   - Navigate to http://localhost:3000 
+   - username and password are admin
+   - Navigate and create dashboards
 
 ## Architecture
 
 the target architecture would be to allow gathering information from applications but also sync with hadoop to enable having a data lake to improve analytics, and pull directly from google analytics to logstash.
 
-![41835539-452a2704-7858-11e8-994d-0943039758fe](https://user-images.githubusercontent.com/3071208/41849145-2e0f2ee8-7880-11e8-9580-9fd0c1aa31fd.png)
+![image](https://user-images.githubusercontent.com/3071208/41893258-66e86d6a-791b-11e8-9e2a-929c723b9f44.png)
 
 (current architecture is missing google analytics and hadoop as seen in TODO list)
 
 ## Backlog
 - [X] Add kibana container
+- [X] Add Grafana container visualization
 - [X] Add elasticsearch container
 - [X] Add logstash container and configuration
 - [X] Add aplication containers
+- [X] Add dashboard as code for grafana
 - [ ] Add import fron google analytics through logstash and http_poller
 - [ ] Add hadoop infrastructure for data analytics extension
 
